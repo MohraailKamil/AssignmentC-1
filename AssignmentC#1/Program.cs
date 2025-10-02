@@ -126,7 +126,7 @@ internal class Program
         //int[] deep = (int[])arr.Clone();
         //arr[0] = 100;//deep copy , different reference
         //Console.WriteLine(deep[0]);
-
+        Console.WriteLine("hello");
 
     }
 }
