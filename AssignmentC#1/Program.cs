@@ -117,16 +117,16 @@ internal class Program
         //    }
         //    Console.WriteLine();
         //----------------------------------------------------------------
-        //int[] arr = { 1, 2, 5, 9 };
-        //int[] arr1 = arr;//shallow copy , same reference
-        //arr[0] = 100;
-        //Console.WriteLine(arr1[0]);
+        int[] arr = { 1, 2, 5, 9 };
+        int[] arr1 = arr;//shallow copy , same reference
+        arr[0] = 100;
+        Console.WriteLine(arr1[0]);
 
-        //int[] arr = { 11, 2, 5, 9 };
-        //int[] deep = (int[])arr.Clone();
-        //arr[0] = 100;//deep copy , different reference
-        //Console.WriteLine(deep[0]);
-        Console.WriteLine("hello");
+        int[] arr = { 11, 2, 5, 9 };
+        int[] deep = (int[])arr.Clone();
+        arr[0] = 100;//deep copy , different reference
+        Console.WriteLine(deep[0]);
+
 
     }
 }
